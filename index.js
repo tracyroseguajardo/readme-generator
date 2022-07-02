@@ -1,8 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require('./utils/generateMarkdown')
-const path = require('path')
+const generateMarkdown = require("./utils/generateMarkdown")
+const path = require("path")
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -50,12 +50,17 @@ const questions = [
         type: "list",
         message: "Include licenses",
         name: "license",
-        choices: ["MIT", "GNU GPLv3", "Mozilla Public License 2.0", "Apache", "n/a"]
+        choices: ["MIT", "GNU_GPLv3", "Mozilla_Public_License_2.0", "Apache", "n/a"]
     },
     {
         type: "input",
         message: "Describe how users can contribute",
         name: "contribution",
+    },
+    {
+        type: "input",
+        message: "Test instructions:",
+        name: "testing",
     },
     {
         type: "input",
