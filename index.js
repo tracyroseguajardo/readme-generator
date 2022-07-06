@@ -4,17 +4,26 @@ const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown")
 const path = require("path")
 
+const validation = (input) => {
+    if (input !== '') {
+        return true;
+    }
+    return 'Please enter a response'
+}
+
 // TODO: Create an array of questions for user input
 const questions = [
     {
         type: "input",
         message: "What is the title of your project?",
         name: "title",
+        validate: validation
     },
     {
         type: "input",
         message: "Incude a short description of your project:",
         name: "description",
+        validate: validation
     },
     {
         type: "input",
@@ -54,13 +63,19 @@ const questions = [
     },
     {
         type: "input",
-        message: "Describe how users can contribute",
+        message: "Describe how users can contribute:",
         name: "contribution",
     },
     {
         type: "input",
         message: "Test instructions:",
         name: "testing",
+        validate: (input) => {
+            if (input !== '') {
+                return true;
+            }
+            return 'Please enter a response'
+        }
     },
     {
         type: "input",
@@ -71,6 +86,11 @@ const questions = [
         type: "input",
         message: "Email:",
         name: "email",
+    },
+    {
+        type: "input",
+        message: "Link to deployed application:",
+        name: "deployed",
     },
 ]
 
@@ -84,9 +104,8 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
         .prompt(questions).then((response) => {
-            writeToFile('README.md', generateMarkdown(response));
+            writeToFile("README.md", generateMarkdown(response));
         });
-
 }
 
 // Function call to initialize app

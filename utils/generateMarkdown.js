@@ -13,8 +13,7 @@ function renderLicenseLink(license) {
   if (license === "n/a") {
     return ""
   }
-  return "[License](#license)"
-  // return `![license badge](https://img.shields.io/badge/license-${license}-yellowgreen.svg)`
+  return "- [License](#license)"
 }
 
 // TODO: Create a function that returns the license section of README
@@ -23,7 +22,10 @@ function renderLicenseSection(license) {
   if (license === "n/a") {
     return ""
   }
-  return `This project uses the ${data.license} license`
+  return `## License
+  
+  This project uses the ${license} license. 
+  **If you have questions on the license please check the following site [choose a license](www.google.com)`
 }
 
 // TODO: Create a function to generate markdown for README
@@ -41,27 +43,40 @@ ${data.learned}
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- ${renderLicenseLink(data.license)}
+${renderLicenseLink(data.license)}
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
 - [Visuals](#visuals)
 
 ## Installation
+
 ${data.installation}
+
 ## Usage
+
 ${data.usage}
-## License
-${data.license}
+
+${renderLicenseSection(data.license)}
+
 ## Contributing
+
 ${data.contribution}
+
 ## Tests
+
 ${data.testing}
+
 ## Questions
-Please feel free to explore my other projects on github at: ${data.username}
+
+Please feel free to explore my other projects on github: [${data.username}](https://www.github.com/${data.username})
 
 If you have further questions you may send me an email at: ${data.email}
+
 ## Visuals
+
+Link to deployed application:
+[${data.title}](${data.deployed})
 `;
 }
 
