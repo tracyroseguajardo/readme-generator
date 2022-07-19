@@ -99,7 +99,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
         .prompt(questions).then((response) => {
-            writeToFile("README.md", generateMarkdown(response));
+            writeToFile("newREADME.md", generateMarkdown(response));
         });
 }
 

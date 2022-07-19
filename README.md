@@ -4,10 +4,6 @@
 ## Description
 This application is designed to simplify the process of writing a ReadMe file. It walks the user through a series of command line prompts and takes those user generated responses to automatically generate a ReadMe file formatted with the proper markdown syntax. This will allow the user to spend more of their time working on projects and code without sacrificing a quality and professional ReadMe.  
 
-
-
-
-
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -19,11 +15,11 @@ This application is designed to simplify the process of writing a ReadMe file. I
 
 ## Installation
 
-To install and run this application: pull the application from gitlab and open in vscode. Using the integrated terminal, run the command npm init -y to initilize the node modules and then npm i to install the dependencies. Once that is set up, run he command node index.js to begin the application. There will be a series of prompts delivered via the terminal. Once all questions have been answered, the apllications will dynamically turn those responses into a professional ReadMe. It will be written to a file that the user can then copy and paste.  
+To install and run this application: pull the application from gitlab and open in vscode. Using the integrated terminal, run the command npm init -y to initilize the node modules and then npm i to install the dependencies.  
 
 ## Usage
 
-Once that is set up, run he
+Once that is set up, run the command node index.js in the integrated terminal to begin the application. There will be a series of prompts delivered via the terminal. Once all questions have been answered, the apllications will dynamically turn those responses into a professional ReadMe. It will be written to a file that the user can then copy and paste.
 
 ## License
   
