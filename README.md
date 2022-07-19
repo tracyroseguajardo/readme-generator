@@ -1,9 +1,9 @@
-# sdgf
+# README Generator
   ![license badge](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
 
 ## Description
-dsfg
-s
+This application is designed to simplify the process of writing a ReadMe file. It walks the user through a series of command line prompts and takes those user generated responses to automatically generate a ReadMe file formatted with the proper markdown syntax. This will allow the user to spend more of their time working on projects and code without sacrificing a quality and professional ReadMe.  
+
 
 
 
@@ -19,11 +19,11 @@ s
 
 ## Installation
 
-
+To install and run this application: pull the application from gitlab and open in vscode. Using the integrated terminal, run the command npm init -y to initilize the node modules and then npm i to install the dependencies. Once that is set up, run he command node index.js to begin the application. There will be a series of prompts delivered via the terminal. Once all questions have been answered, the apllications will dynamically turn those responses into a professional ReadMe. It will be written to a file that the user can then copy and paste.  
 
 ## Usage
 
-
+Once that is set up, run he
 
 ## License
   
@@ -32,19 +32,19 @@ s
 
 ## Contributing
 
-
+If you are interested in contributing please navigate to the Questions section below and shoot me an email. 
 
 ## Tests
 
-sdfgsd
+This application currently has no tests.
 
 ## Questions
 
-Please feel free to explore my other projects on github: [](https://www.github.com/)
+Please feel free to explore my other projects on github: [tracyroseguajardo](https://www.github.com/tracyroseguajardo)
 
-If you have further questions you may send me an email at: 
+If you have further questions you may send me an email at: tracyroseguajardo@gmail.com
 
 ## Visuals
 
 Link to deployed application:
-[sdgf]()
+[README Generator](https://tracyroseguajardo.github.io/readme-generator/)

@@ -5,10 +5,10 @@ const generateMarkdown = require("./utils/generateMarkdown")
 const path = require("path")
 
 const validation = (input) => {
-    if (input !== '') {
+    if (input !== "") {
         return true;
     }
-    return 'Please enter a response'
+    return "Please enter a response"
 }
 
 // TODO: Create an array of questions for user input
@@ -70,22 +70,18 @@ const questions = [
         type: "input",
         message: "Test instructions:",
         name: "testing",
-        validate: (input) => {
-            if (input !== '') {
-                return true;
-            }
-            return 'Please enter a response'
-        }
     },
     {
         type: "input",
         message: "Github Username:",
         name: "username",
+        validate: validation,
     },
     {
         type: "input",
         message: "Email:",
         name: "email",
+        validate: validation
     },
     {
         type: "input",
@@ -98,7 +94,6 @@ const questions = [
 function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
-
 
 // TODO: Create a function to initialize app
 function init() {
