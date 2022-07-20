@@ -42,5 +42,8 @@ If you have further questions you may send me an email at: tracyroseguajardo@gma
 
 ## Visuals
 
-Link to deployed application:
+Link to deployed application (please note this is a backend application):
 [README Generator](https://tracyroseguajardo.github.io/readme-generator/)
+
+Link to walkthrough video, which shows the application in use:
+[Application Walkthrough](https://watch.screencastify.com/v/H4RRddxQKw52ESZatuUD)
