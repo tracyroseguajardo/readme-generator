@@ -25,7 +25,7 @@ function renderLicenseSection(license) {
   return `## License
   
   This project uses the ${license} license. 
-  **If you have questions on the license please check the following site [choose a license](www.google.com)`
+  **If you have questions on the license please check the following site [choose a license](https://www.google.com)`
 }
 
 // TODO: Create a function to generate markdown for README
@@ -35,10 +35,6 @@ function generateMarkdown(data) {
 
 ## Description
 ${data.description}
-${data.motivation}
-${data.why}
-${data.solves}
-${data.learned}
 
 ## Table of Contents
 - [Installation](#installation)

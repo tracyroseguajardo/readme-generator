@@ -24,7 +24,7 @@ Once that is set up, run the command node index.js in the integrated terminal to
 ## License
   
   This project uses the MIT license. 
-  **If you have questions on the license please check the following site [choose a license](www.google.com)
+  **If you have questions on the license please check the following site [choose a license](https://www.google.com)
 
 ## Contributing
 
@@ -32,7 +32,7 @@ If you are interested in contributing please navigate to the Questions section b
 
 ## Tests
 
-This application currently has no tests.
+This application currently utilizes no tests.
 
 ## Questions
 

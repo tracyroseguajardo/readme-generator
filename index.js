@@ -27,26 +27,6 @@ const questions = [
     },
     {
         type: "input",
-        message: "What was your motivation?",
-        name: "motivation",
-    },
-    {
-        type: "input",
-        message: "Why did you build this project?",
-        name: "why",
-    },
-    {
-        type: "input",
-        message: "What problem does it solve?",
-        name: "solves",
-    },
-    {
-        type: "input",
-        message: "What did you learn",
-        name: "learned",
-    },
-    {
-        type: "input",
         message: "Include step-by-step installation instructions:",
         name: "installation",
     },
@@ -81,7 +61,7 @@ const questions = [
         type: "input",
         message: "Email:",
         name: "email",
-        validate: validation
+        validate: validation,
     },
     {
         type: "input",
