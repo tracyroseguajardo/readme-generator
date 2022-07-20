@@ -2,7 +2,7 @@
   ![license badge](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
 
 ## Description
-This application is designed to simplify the process of writing a ReadMe file. It walks the user through a series of command line prompts and takes those user generated responses to automatically generate a ReadMe file formatted with the proper markdown syntax. This will allow the user to spend more of their time working on projects and code without sacrificing a quality and professional ReadMe.  
+This application is designed to simplify the process of writing a README file. It walks the user through a series of command line prompts and takes those user generated responses to automatically generate a README file formatted with the proper markdown syntax. This will allow the user to spend more of their time working on projects and code without sacrificing a quality and professional README.  
 
 ## Table of Contents
 - [Installation](#installation)
